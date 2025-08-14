@@ -1,22 +1,53 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o deselvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    //primeira carta
+    char estado1[30] = "Ceara";
+    char codigodacarta1[30] = "A01";
+    char nomedacidade1[30] = "Fortaleza";
+    int populacao1 = 100000;
+    float areaemkm21 = 32849;
+    float pib1 = 3232732;
+    int pontosturisticos1 = 3;
+
+    //demonstrando a carta numero 1 na tela
+
+    printf ("CARTA 1:");
+    printf ("Estado1: %s\n", estado1);
+    printf("codigo da carta: %s\n", codigodacarta1);
+    printf ("nome da cidade: %s\n", nomedacidade1);
+    printf ("quantidade da população: %d\n", populacao1);
+    printf ("Area em km2: %f\n", areaemkm21);
+    printf ("PIB:%f\n", pib1);
+    printf ("pontos turisticos: %d\n", pontosturisticos1);
+    
+
+    //segunda carta
+    char estado2[20] = "Acre";
+    char codigocarta2[20] = "A02";
+    char nomedacidade2[20] = "Rio Branco";
+    int populacao2 = 37298;
+    float areaemkm22 = 2000;
+    float pib2 = 23245;
+    int pontosturisticos2 = 3;
+
+    //demonstrando segunda carta na tela
+
+    printf ("CARTA 2:\n");
+    printf ("Estado1: %s\n", estado2);
+    printf("codigo da carta: %s\n", codigocarta2);
+    printf ("nome da cidade: %s\n", nomedacidade2);
+    printf ("quantidade da população: %d\n", populacao2);
+    printf ("Area em km2: %f\n", areaemkm22);
+    printf ("PIB:%f\n", pib2);
+    printf ("pontos turisticos: %d\n", pontosturisticos2);
+
+
+
+
+   
     return 0;
 }
